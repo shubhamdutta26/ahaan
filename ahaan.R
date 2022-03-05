@@ -7,8 +7,11 @@ library(readxl)
 font_add_google(name = "Source Sans Pro", family = "SourceSansPro")
 showtext_auto()
 
-# Set working directory
-setwd("~/OneDrive - University Of Massachusetts Medical School/Ahaan")
+# Set working directory for Mac
+setwd("~/OneDrive - University Of Massachusetts Medical School/github_sync/ahaan")
+
+# Set working directory for Windows
+setwd("C:/Users/shubh/OneDrive - University Of Massachusetts Medical School/github_sync/ahaan")
 
 # Load ggplot personal theme
 source("ggplot2_personal_theme.R")

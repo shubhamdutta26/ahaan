@@ -13,10 +13,11 @@ shubham_theme_dark <- function() {
           panel.grid.major.y = element_line(size = 0.1),# remove major grid lines
           panel.grid.minor = element_blank(),# remove minor grid lines
           # legend.position= "none",# remove legend legend.position= c(0.1, 0.75)
+          legend.position = "bottom",
           legend.background = element_rect(fill = "#36474f"),# change legend background
           legend.key = element_rect(fill = "#36474f"),# change legend keys background
-          legend.title = element_text(family = "SourceSansPro", size = 12, color = "#ffffff"),# change legend title color
-          legend.text = element_text(family = "SourceSansPro", size = 12, color = "#ffffff"),# change legend text color
+          legend.title = element_text(family = "SourceSansPro", size = 15, color = "#ffffff"),# change legend title color
+          legend.text = element_text(family = "SourceSansPro", size = 10, color = "#ffffff"),# change legend text color
           plot.title    = element_text(family = "SourceSansPro", size = 15, color = "#ffffff"),
           plot.subtitle = element_text(family = "SourceSansPro", size = 10, color = "#ffffff"),
           plot.caption = element_text(family = "SourceSansPro", size = 10, color = "#ffffff"),
